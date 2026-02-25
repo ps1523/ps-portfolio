@@ -56,6 +56,15 @@ const Projects = () => {
       color: 'from-green-500 to-teal-500',
       gradient: 'from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20'
     },
+     {
+      icon: Cpu,
+      title: 'IoT-Based Smart Helmet for Real-Time Worker Safety Monitoring',
+      category: 'Embedded Systems',
+      description: 'A smart helmet equipped with sensors to monitor worker safety in real-time, detecting impacts, monitoring vital signs, and providing alerts for hazardous conditions.',
+      technologies: ['ESP32', 'Accelerometer', 'DTH11 Sensor', 'MQ135 Sensor','SW-420 (Vibration Sensor','IoT', 'Cloud'],
+      color: 'from-indigo-500 to-teal-500',
+      gradient: 'from-green-50 to-teal-50 dark:from-green-900/20 dark:to-teal-900/20'
+    },
     {
       icon: Cpu,
       title: 'Cloud-Integrated Environmental Monitoring',
@@ -99,6 +108,15 @@ const Projects = () => {
       description: 'A smart parking management system for cars and bikes, allowing users to book parking slots instantly at malls, cinemas, and event halls using QR code technology.',
       technologies: ['React', 'Tailwind CSS', 'Firebase', 'QR Code'],
       color: 'from-blue-500 to-cyan-500',
+      gradient: 'from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20'
+    },
+    {
+      icon: Globe,
+      title: 'Connect360',
+      category: 'Web Development',
+      description: 'A comprehensive e-commerce platform connecting students with local shops and services around their college campus.',
+      technologies: ['React', 'Tailwind CSS', 'Firebase', 'QR Code'],
+      color: 'from-red-500 to-cyan-500',
       gradient: 'from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20'
     }
   ];
